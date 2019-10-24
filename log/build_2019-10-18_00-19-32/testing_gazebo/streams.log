@@ -1,0 +1,11 @@
+Invoking command in '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo -- -j4 -l4
+[100%] Built target testing_gazebo
+Invoked command in '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo -- -j4 -l4
+Invoking command in '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo --target install -- -j4 -l4
+[100%] Built target testing_gazebo
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo/share/testing_gazebo/environment/library_path.sh
+-- Up-to-date symlink: /home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo/lib/libtesting_gazebo.so
+Invoked command in '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo --target install -- -j4 -l4

@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target testing_gazebo[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/testing_gazebo.dir/src/simple_world_plugin.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libtesting_gazebo.so[0m
+[100%] Built target testing_gazebo
+[100%] Built target testing_gazebo
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo/share/testing_gazebo/environment/library_path.sh
+-- Up-to-date symlink: /home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo/lib/libtesting_gazebo.so

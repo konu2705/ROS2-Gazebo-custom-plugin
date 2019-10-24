@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.001079] (testing_gazebo) JobQueued: {'identifier': 'testing_gazebo', 'dependencies': OrderedDict()}
+[0.001725] (testing_gazebo) JobStarted: {'identifier': 'testing_gazebo'}
+[0.026674] (testing_gazebo) JobProgress: {'identifier': 'testing_gazebo', 'progress': 'cmake'}
+[0.032446] (testing_gazebo) JobProgress: {'identifier': 'testing_gazebo', 'progress': 'build'}
+[0.034186] (testing_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo', '--', '-j4', '-l4'], 'cwd': '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'konu'), ('TEXTDOMAIN', 'im-config'), ('OSPL_INFOFILE', '<stdout>'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2283'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/konu'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/konu'), ('DESKTOP_SESSION', 'ubuntu'), ('OSPL_VERBOSITY', '2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'konu'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('ROS_VERSION', '2'), ('USERNAME', 'konu'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/home/konu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/konu/Documents/toolchains_for_mplab/bin:/home/konu/Documents/toolchains_for_mplab/xc32/bin:/home/konu/Documents/toolchains_for_mplab/xc16/bin:/home/konu/Documents/toolchains_for_mplab/xc8/bin:/home/konu/Documents/toolchains_for_mplab/bin:/home/konu/Documents/toolchains_for_mplab/xc32/bin:/home/konu/Documents/toolchains_for_mplab/xc16/bin:/home/konu/Documents/toolchains_for_mplab/xc8/bin'), ('SESSION_MANAGER', 'local/konu-Lenovo-G50-80:@/tmp/.ICE-unix/2187,unix/konu-Lenovo-G50-80:/tmp/.ICE-unix/2187'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89366e7b_3195_4a49_850b_bb94d52bf9b9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.165'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo:/opt/ros/dashing')]), 'shell': False}
+[0.099634] (-) TimerEvent: {}
+[0.123878] (testing_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target testing_gazebo\x1b[0m\n'}
+[0.199730] (-) TimerEvent: {}
+[0.300123] (-) TimerEvent: {}
+[0.362283] (testing_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/testing_gazebo.dir/src/simple_world_plugin.cpp.o\x1b[0m\n'}
+[0.400250] (-) TimerEvent: {}
+[0.500781] (-) TimerEvent: {}
+[0.601258] (-) TimerEvent: {}
+[0.701734] (-) TimerEvent: {}
+[0.802164] (-) TimerEvent: {}
+[0.902591] (-) TimerEvent: {}
+[1.003017] (-) TimerEvent: {}
+[1.103492] (-) TimerEvent: {}
+[1.203929] (-) TimerEvent: {}
+[1.304422] (-) TimerEvent: {}
+[1.404903] (-) TimerEvent: {}
+[1.505378] (-) TimerEvent: {}
+[1.605833] (-) TimerEvent: {}
+[1.706252] (-) TimerEvent: {}
+[1.806696] (-) TimerEvent: {}
+[1.907132] (-) TimerEvent: {}
+[2.007614] (-) TimerEvent: {}
+[2.108102] (-) TimerEvent: {}
+[2.208604] (-) TimerEvent: {}
+[2.309115] (-) TimerEvent: {}
+[2.409671] (-) TimerEvent: {}
+[2.510185] (-) TimerEvent: {}
+[2.610647] (-) TimerEvent: {}
+[2.711187] (-) TimerEvent: {}
+[2.811727] (-) TimerEvent: {}
+[2.912165] (-) TimerEvent: {}
+[3.012712] (-) TimerEvent: {}
+[3.113199] (-) TimerEvent: {}
+[3.213714] (-) TimerEvent: {}
+[3.314230] (-) TimerEvent: {}
+[3.414698] (-) TimerEvent: {}
+[3.515126] (-) TimerEvent: {}
+[3.615583] (-) TimerEvent: {}
+[3.716070] (-) TimerEvent: {}
+[3.816569] (-) TimerEvent: {}
+[3.917051] (-) TimerEvent: {}
+[4.017537] (-) TimerEvent: {}
+[4.118034] (-) TimerEvent: {}
+[4.218539] (-) TimerEvent: {}
+[4.319046] (-) TimerEvent: {}
+[4.419546] (-) TimerEvent: {}
+[4.520056] (-) TimerEvent: {}
+[4.620598] (-) TimerEvent: {}
+[4.721073] (-) TimerEvent: {}
+[4.821516] (-) TimerEvent: {}
+[4.921974] (-) TimerEvent: {}
+[5.022478] (-) TimerEvent: {}
+[5.122958] (-) TimerEvent: {}
+[5.223351] (-) TimerEvent: {}
+[5.323828] (-) TimerEvent: {}
+[5.424358] (-) TimerEvent: {}
+[5.524817] (-) TimerEvent: {}
+[5.625327] (-) TimerEvent: {}
+[5.725820] (-) TimerEvent: {}
+[5.826221] (-) TimerEvent: {}
+[5.926681] (-) TimerEvent: {}
+[6.027148] (-) TimerEvent: {}
+[6.127615] (-) TimerEvent: {}
+[6.228077] (-) TimerEvent: {}
+[6.328589] (-) TimerEvent: {}
+[6.429055] (-) TimerEvent: {}
+[6.529551] (-) TimerEvent: {}
+[6.630005] (-) TimerEvent: {}
+[6.730541] (-) TimerEvent: {}
+[6.831023] (-) TimerEvent: {}
+[6.931501] (-) TimerEvent: {}
+[7.031981] (-) TimerEvent: {}
+[7.132505] (-) TimerEvent: {}
+[7.232962] (-) TimerEvent: {}
+[7.333433] (-) TimerEvent: {}
+[7.433891] (-) TimerEvent: {}
+[7.534326] (-) TimerEvent: {}
+[7.634765] (-) TimerEvent: {}
+[7.735186] (-) TimerEvent: {}
+[7.835632] (-) TimerEvent: {}
+[7.936128] (-) TimerEvent: {}
+[8.036662] (-) TimerEvent: {}
+[8.137147] (-) TimerEvent: {}
+[8.237710] (-) TimerEvent: {}
+[8.338279] (-) TimerEvent: {}
+[8.438840] (-) TimerEvent: {}
+[8.539364] (-) TimerEvent: {}
+[8.639837] (-) TimerEvent: {}
+[8.740340] (-) TimerEvent: {}
+[8.840814] (-) TimerEvent: {}
+[8.941288] (-) TimerEvent: {}
+[9.041767] (-) TimerEvent: {}
+[9.142210] (-) TimerEvent: {}
+[9.242754] (-) TimerEvent: {}
+[9.343168] (-) TimerEvent: {}
+[9.443626] (-) TimerEvent: {}
+[9.544111] (-) TimerEvent: {}
+[9.644725] (-) TimerEvent: {}
+[9.745184] (-) TimerEvent: {}
+[9.845666] (-) TimerEvent: {}
+[9.946141] (-) TimerEvent: {}
+[10.046608] (-) TimerEvent: {}
+[10.147135] (-) TimerEvent: {}
+[10.247611] (-) TimerEvent: {}
+[10.348079] (-) TimerEvent: {}
+[10.448600] (-) TimerEvent: {}
+[10.549059] (-) TimerEvent: {}
+[10.649516] (-) TimerEvent: {}
+[10.749997] (-) TimerEvent: {}
+[10.850481] (-) TimerEvent: {}
+[10.950949] (-) TimerEvent: {}
+[11.051415] (-) TimerEvent: {}
+[11.151886] (-) TimerEvent: {}
+[11.252358] (-) TimerEvent: {}
+[11.352820] (-) TimerEvent: {}
+[11.453291] (-) TimerEvent: {}
+[11.553765] (-) TimerEvent: {}
+[11.654245] (-) TimerEvent: {}
+[11.754720] (-) TimerEvent: {}
+[11.855187] (-) TimerEvent: {}
+[11.955661] (-) TimerEvent: {}
+[12.056165] (-) TimerEvent: {}
+[12.156704] (-) TimerEvent: {}
+[12.257114] (-) TimerEvent: {}
+[12.357652] (-) TimerEvent: {}
+[12.458149] (-) TimerEvent: {}
+[12.558620] (-) TimerEvent: {}
+[12.659085] (-) TimerEvent: {}
+[12.759599] (-) TimerEvent: {}
+[12.860187] (-) TimerEvent: {}
+[12.960698] (-) TimerEvent: {}
+[13.061167] (-) TimerEvent: {}
+[13.161596] (-) TimerEvent: {}
+[13.262080] (-) TimerEvent: {}
+[13.362542] (-) TimerEvent: {}
+[13.463017] (-) TimerEvent: {}
+[13.563551] (-) TimerEvent: {}
+[13.577297] (testing_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libtesting_gazebo.so\x1b[0m\n'}
+[13.663689] (-) TimerEvent: {}
+[13.764241] (-) TimerEvent: {}
+[13.864992] (-) TimerEvent: {}
+[13.965607] (-) TimerEvent: {}
+[13.972875] (testing_gazebo) StdoutLine: {'line': b'[100%] Built target testing_gazebo\n'}
+[14.003420] (testing_gazebo) CommandEnded: {'returncode': 0}
+[14.050885] (testing_gazebo) JobProgress: {'identifier': 'testing_gazebo', 'progress': 'install'}
+[14.052841] (testing_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'konu'), ('TEXTDOMAIN', 'im-config'), ('OSPL_INFOFILE', '<stdout>'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2283'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/konu'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/konu'), ('DESKTOP_SESSION', 'ubuntu'), ('OSPL_VERBOSITY', '2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'konu'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('ROS_VERSION', '2'), ('USERNAME', 'konu'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/home/konu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/konu/Documents/toolchains_for_mplab/bin:/home/konu/Documents/toolchains_for_mplab/xc32/bin:/home/konu/Documents/toolchains_for_mplab/xc16/bin:/home/konu/Documents/toolchains_for_mplab/xc8/bin:/home/konu/Documents/toolchains_for_mplab/bin:/home/konu/Documents/toolchains_for_mplab/xc32/bin:/home/konu/Documents/toolchains_for_mplab/xc16/bin:/home/konu/Documents/toolchains_for_mplab/xc8/bin'), ('SESSION_MANAGER', 'local/konu-Lenovo-G50-80:@/tmp/.ICE-unix/2187,unix/konu-Lenovo-G50-80:/tmp/.ICE-unix/2187'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89366e7b_3195_4a49_850b_bb94d52bf9b9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.165'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo:/opt/ros/dashing')]), 'shell': False}
+[14.065772] (-) TimerEvent: {}
+[14.166309] (-) TimerEvent: {}
+[14.190757] (testing_gazebo) StdoutLine: {'line': b'[100%] Built target testing_gazebo\n'}
+[14.238359] (testing_gazebo) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[14.261741] (testing_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.262957] (testing_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.263871] (testing_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo/share/testing_gazebo/environment/library_path.sh\n'}
+[14.265953] (testing_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo/lib/libtesting_gazebo.so\n'}
+[14.266371] (-) TimerEvent: {}
+[14.271452] (testing_gazebo) CommandEnded: {'returncode': 0}
+[14.318482] (testing_gazebo) JobEnded: {'identifier': 'testing_gazebo', 'rc': 0}
+[14.320688] (-) EventReactorShutdown: {}

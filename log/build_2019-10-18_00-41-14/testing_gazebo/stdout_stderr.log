@@ -1,0 +1,55 @@
+[35m[1mScanning dependencies of target testing_gazebo[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/testing_gazebo.dir/src/simple_world_plugin.cpp.o[0m
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/service.hpp:33:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:2[m[K:
+[01m[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::WorldPluginTutorial::Load(gazebo::physics::WorldPtr, sdf::ElementPtr)[m[K’:
+[01m[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:17:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger[m[K’ was not declared in this scope
+     RCLCPP_INFO([01;31m[Kl[m[Kogger, "rclcpp printing\n");
+                 [01;31m[K^[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:215:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+ ame<typename std::remove_reference<typename std::remove_cv<decltype([01;36m[Klogger[m[K)>::type>::type, \
+                                                                     [01;36m[K^~~~~~[m[K
+[01m[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:17:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Klogf64[m[K’
+     RCLCPP_INFO([01;36m[Kl[m[Kogger, "rclcpp printing\n");
+                 [01;36m[K^[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:215:86:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCLCPP_INFO[m[K’
+ ame<typename std::remove_reference<typename std::remove_cv<decltype([01;36m[Klogger[m[K)>::type>::type, \
+                                                                     [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:215:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ ename std::remove_reference<typename std::remove_cv<decltype(logger)[01;31m[K>[m[K::type>::type, \
+                                                                     [01;31m[K^[m[K
+[01m[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+     [01;36m[KR[m[KCLCPP_INFO(logger, "rclcpp printing\n");
+     [01;36m[K^[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:215:100:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ std::remove_reference<typename std::remove_cv<decltype(logger)>::type[01;31m[K>[m[K::type, \
+                                                                      [01;31m[K^[m[K
+[01m[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+     [01;36m[KR[m[KCLCPP_INFO(logger, "rclcpp printing\n");
+     [01;36m[K^[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:216:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+       typename ::rclcpp::Logger[01;31m[K>[m[K::value, \
+                                [01;31m[K^[m[K
+[01m[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+     [01;36m[KR[m[KCLCPP_INFO(logger, "rclcpp printing\n");
+     [01;36m[K^[m[K
+[01m[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:15:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_world[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   void Load(physics::WorldPtr [01;35m[K_world[m[K, sdf::ElementPtr _sdf)
+                               [01;35m[K^~~~~~[m[K
+[01m[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:15:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_sdf[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   void Load(physics::WorldPtr _world, sdf::ElementPtr [01;35m[K_sdf[m[K)
+                                                       [01;35m[K^~~~[m[K
+CMakeFiles/testing_gazebo.dir/build.make:62: recipe for target 'CMakeFiles/testing_gazebo.dir/src/simple_world_plugin.cpp.o' failed
+make[2]: *** [CMakeFiles/testing_gazebo.dir/src/simple_world_plugin.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/testing_gazebo.dir/all' failed
+make[1]: *** [CMakeFiles/testing_gazebo.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

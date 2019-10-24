@@ -1,0 +1,2 @@
+Invoking command in '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo -- -j4 -l4
+Invoked command in '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo -- -j4 -l4

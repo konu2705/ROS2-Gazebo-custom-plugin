@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo/libsimple_world.so" "TARGETS" "simple_world" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

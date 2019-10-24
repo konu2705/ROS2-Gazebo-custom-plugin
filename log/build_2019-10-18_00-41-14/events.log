@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.000767] (testing_gazebo) JobQueued: {'identifier': 'testing_gazebo', 'dependencies': OrderedDict()}
+[0.001455] (testing_gazebo) JobStarted: {'identifier': 'testing_gazebo'}
+[0.029790] (testing_gazebo) JobProgress: {'identifier': 'testing_gazebo', 'progress': 'cmake'}
+[0.032325] (testing_gazebo) JobProgress: {'identifier': 'testing_gazebo', 'progress': 'build'}
+[0.034046] (testing_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo', '--', '-j4', '-l4'], 'cwd': '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'konu'), ('TEXTDOMAIN', 'im-config'), ('OSPL_INFOFILE', '<stdout>'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2283'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/konu'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/konu'), ('DESKTOP_SESSION', 'ubuntu'), ('OSPL_VERBOSITY', '2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'konu'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('ROS_VERSION', '2'), ('USERNAME', 'konu'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/home/konu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/konu/Documents/toolchains_for_mplab/bin:/home/konu/Documents/toolchains_for_mplab/xc32/bin:/home/konu/Documents/toolchains_for_mplab/xc16/bin:/home/konu/Documents/toolchains_for_mplab/xc8/bin:/home/konu/Documents/toolchains_for_mplab/bin:/home/konu/Documents/toolchains_for_mplab/xc32/bin:/home/konu/Documents/toolchains_for_mplab/xc16/bin:/home/konu/Documents/toolchains_for_mplab/xc8/bin'), ('SESSION_MANAGER', 'local/konu-Lenovo-G50-80:@/tmp/.ICE-unix/2187,unix/konu-Lenovo-G50-80:/tmp/.ICE-unix/2187'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89366e7b_3195_4a49_850b_bb94d52bf9b9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.165'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo:/opt/ros/dashing')]), 'shell': False}
+[0.099545] (-) TimerEvent: {}
+[0.130441] (testing_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target testing_gazebo\x1b[0m\n'}
+[0.195564] (testing_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/testing_gazebo.dir/src/simple_world_plugin.cpp.o\x1b[0m\n'}
+[0.199631] (-) TimerEvent: {}
+[0.300183] (-) TimerEvent: {}
+[0.400566] (-) TimerEvent: {}
+[0.501012] (-) TimerEvent: {}
+[0.601450] (-) TimerEvent: {}
+[0.701899] (-) TimerEvent: {}
+[0.802376] (-) TimerEvent: {}
+[0.902809] (-) TimerEvent: {}
+[1.003229] (-) TimerEvent: {}
+[1.103601] (-) TimerEvent: {}
+[1.204018] (-) TimerEvent: {}
+[1.304403] (-) TimerEvent: {}
+[1.404843] (-) TimerEvent: {}
+[1.505269] (-) TimerEvent: {}
+[1.605779] (-) TimerEvent: {}
+[1.706313] (-) TimerEvent: {}
+[1.806710] (-) TimerEvent: {}
+[1.907138] (-) TimerEvent: {}
+[2.007532] (-) TimerEvent: {}
+[2.108003] (-) TimerEvent: {}
+[2.208473] (-) TimerEvent: {}
+[2.308969] (-) TimerEvent: {}
+[2.409457] (-) TimerEvent: {}
+[2.509928] (-) TimerEvent: {}
+[2.610459] (-) TimerEvent: {}
+[2.710944] (-) TimerEvent: {}
+[2.811490] (-) TimerEvent: {}
+[2.911985] (-) TimerEvent: {}
+[3.012468] (-) TimerEvent: {}
+[3.112958] (-) TimerEvent: {}
+[3.213445] (-) TimerEvent: {}
+[3.313936] (-) TimerEvent: {}
+[3.414504] (-) TimerEvent: {}
+[3.514995] (-) TimerEvent: {}
+[3.615483] (-) TimerEvent: {}
+[3.715981] (-) TimerEvent: {}
+[3.816478] (-) TimerEvent: {}
+[3.916986] (-) TimerEvent: {}
+[4.017485] (-) TimerEvent: {}
+[4.117948] (-) TimerEvent: {}
+[4.218561] (-) TimerEvent: {}
+[4.319124] (-) TimerEvent: {}
+[4.419636] (-) TimerEvent: {}
+[4.520144] (-) TimerEvent: {}
+[4.620711] (-) TimerEvent: {}
+[4.721304] (-) TimerEvent: {}
+[4.821898] (-) TimerEvent: {}
+[4.922478] (-) TimerEvent: {}
+[5.022985] (-) TimerEvent: {}
+[5.123494] (-) TimerEvent: {}
+[5.224003] (-) TimerEvent: {}
+[5.324514] (-) TimerEvent: {}
+[5.425013] (-) TimerEvent: {}
+[5.525511] (-) TimerEvent: {}
+[5.543455] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/service.hpp:33:0\x1b[m\x1b[K,\n'}
+[5.543836] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[5.544055] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.544257] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.544468] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.544660] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.544843] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24\x1b[m\x1b[K,\n'}
+[5.545033] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.545214] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[5.545406] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:2\x1b[m\x1b[K:\n'}
+[5.545601] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gazebo::WorldPluginTutorial::Load(gazebo::physics::WorldPtr, sdf::ElementPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.545812] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klogger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.546017] (testing_gazebo) StderrLine: {'line': b'     RCLCPP_INFO(\x1b[01;31m\x1b[Kl\x1b[m\x1b[Kogger, "rclcpp printing\\n");\n'}
+[5.546262] (testing_gazebo) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.546461] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:215:86:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.546660] (testing_gazebo) StderrLine: {'line': b' ame<typename std::remove_reference<typename std::remove_cv<decltype(\x1b[01;36m\x1b[Klogger\x1b[m\x1b[K)>::type>::type, \\\n'}
+[5.546854] (testing_gazebo) StderrLine: {'line': b'                                                                     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.547749] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Klogf64\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.548088] (testing_gazebo) StderrLine: {'line': b'     RCLCPP_INFO(\x1b[01;36m\x1b[Kl\x1b[m\x1b[Kogger, "rclcpp printing\\n");\n'}
+[5.548356] (testing_gazebo) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.548610] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:215:86:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.548853] (testing_gazebo) StderrLine: {'line': b' ame<typename std::remove_reference<typename std::remove_cv<decltype(\x1b[01;36m\x1b[Klogger\x1b[m\x1b[K)>::type>::type, \\\n'}
+[5.549093] (testing_gazebo) StderrLine: {'line': b'                                                                     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.549322] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:215:93:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.549588] (testing_gazebo) StderrLine: {'line': b' ename std::remove_reference<typename std::remove_cv<decltype(logger)\x1b[01;31m\x1b[K>\x1b[m\x1b[K::type>::type, \\\n'}
+[5.550070] (testing_gazebo) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.550390] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.550622] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[KR\x1b[m\x1b[KCLCPP_INFO(logger, "rclcpp printing\\n");\n'}
+[5.550841] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.551047] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:215:100:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.551258] (testing_gazebo) StderrLine: {'line': b' std::remove_reference<typename std::remove_cv<decltype(logger)>::type\x1b[01;31m\x1b[K>\x1b[m\x1b[K::type, \\\n'}
+[5.551492] (testing_gazebo) StderrLine: {'line': b'                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.552369] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.552763] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[KR\x1b[m\x1b[KCLCPP_INFO(logger, "rclcpp printing\\n");\n'}
+[5.553029] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.553303] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:216:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.553577] (testing_gazebo) StderrLine: {'line': b'       typename ::rclcpp::Logger\x1b[01;31m\x1b[K>\x1b[m\x1b[K::value, \\\n'}
+[5.553845] (testing_gazebo) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.554126] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.554435] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[KR\x1b[m\x1b[KCLCPP_INFO(logger, "rclcpp printing\\n");\n'}
+[5.554683] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.554935] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:15:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_world\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.555187] (testing_gazebo) StderrLine: {'line': b'   void Load(physics::WorldPtr \x1b[01;35m\x1b[K_world\x1b[m\x1b[K, sdf::ElementPtr _sdf)\n'}
+[5.555442] (testing_gazebo) StderrLine: {'line': b'                               \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.555691] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:15:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_sdf\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.555945] (testing_gazebo) StderrLine: {'line': b'   void Load(physics::WorldPtr _world, sdf::ElementPtr \x1b[01;35m\x1b[K_sdf\x1b[m\x1b[K)\n'}
+[5.556188] (testing_gazebo) StderrLine: {'line': b'                                                       \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.625635] (-) TimerEvent: {}
+[5.726060] (-) TimerEvent: {}
+[5.826568] (-) TimerEvent: {}
+[5.926944] (-) TimerEvent: {}
+[6.027358] (-) TimerEvent: {}
+[6.127784] (-) TimerEvent: {}
+[6.228206] (-) TimerEvent: {}
+[6.328719] (-) TimerEvent: {}
+[6.429263] (-) TimerEvent: {}
+[6.529769] (-) TimerEvent: {}
+[6.630314] (-) TimerEvent: {}
+[6.730770] (-) TimerEvent: {}
+[6.831233] (-) TimerEvent: {}
+[6.931703] (-) TimerEvent: {}
+[6.978250] (testing_gazebo) StdoutLine: {'line': b"CMakeFiles/testing_gazebo.dir/build.make:62: recipe for target 'CMakeFiles/testing_gazebo.dir/src/simple_world_plugin.cpp.o' failed\n"}
+[6.978875] (testing_gazebo) StderrLine: {'line': b'make[2]: *** [CMakeFiles/testing_gazebo.dir/src/simple_world_plugin.cpp.o] Error 1\n'}
+[6.979187] (testing_gazebo) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/testing_gazebo.dir/all' failed\n"}
+[6.979422] (testing_gazebo) StderrLine: {'line': b'make[1]: *** [CMakeFiles/testing_gazebo.dir/all] Error 2\n'}
+[6.979628] (testing_gazebo) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[6.979839] (testing_gazebo) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[6.982747] (testing_gazebo) CommandEnded: {'returncode': 2}
+[6.983755] (testing_gazebo) JobEnded: {'identifier': 'testing_gazebo', 'rc': 2}
+[6.995260] (-) EventReactorShutdown: {}

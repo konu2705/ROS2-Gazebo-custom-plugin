@@ -1,0 +1,932 @@
+[0.000000] (-) TimerEvent: {}
+[0.000431] (testing_gazebo) JobQueued: {'identifier': 'testing_gazebo', 'dependencies': OrderedDict()}
+[0.000586] (testing_gazebo) JobStarted: {'identifier': 'testing_gazebo'}
+[0.028248] (testing_gazebo) JobProgress: {'identifier': 'testing_gazebo', 'progress': 'cmake'}
+[0.031206] (testing_gazebo) JobProgress: {'identifier': 'testing_gazebo', 'progress': 'build'}
+[0.033446] (testing_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo', '--', '-j4', '-l4'], 'cwd': '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'konu'), ('TEXTDOMAIN', 'im-config'), ('OSPL_INFOFILE', '<stdout>'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2283'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/konu'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/konu'), ('DESKTOP_SESSION', 'ubuntu'), ('OSPL_VERBOSITY', '2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'konu'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('ROS_VERSION', '2'), ('USERNAME', 'konu'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/home/konu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/konu/Documents/toolchains_for_mplab/bin:/home/konu/Documents/toolchains_for_mplab/xc32/bin:/home/konu/Documents/toolchains_for_mplab/xc16/bin:/home/konu/Documents/toolchains_for_mplab/xc8/bin:/home/konu/Documents/toolchains_for_mplab/bin:/home/konu/Documents/toolchains_for_mplab/xc32/bin:/home/konu/Documents/toolchains_for_mplab/xc16/bin:/home/konu/Documents/toolchains_for_mplab/xc8/bin'), ('SESSION_MANAGER', 'local/konu-Lenovo-G50-80:@/tmp/.ICE-unix/2187,unix/konu-Lenovo-G50-80:/tmp/.ICE-unix/2187'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89366e7b_3195_4a49_850b_bb94d52bf9b9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.165'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/build/testing_gazebo'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo:/opt/ros/dashing')]), 'shell': False}
+[0.095317] (-) TimerEvent: {}
+[0.141318] (testing_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target testing_gazebo\x1b[0m\n'}
+[0.195419] (-) TimerEvent: {}
+[0.215243] (testing_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/testing_gazebo.dir/src/simple_world_plugin.cpp.o\x1b[0m\n'}
+[0.295549] (-) TimerEvent: {}
+[0.396057] (-) TimerEvent: {}
+[0.496502] (-) TimerEvent: {}
+[0.596989] (-) TimerEvent: {}
+[0.697475] (-) TimerEvent: {}
+[0.797892] (-) TimerEvent: {}
+[0.898329] (-) TimerEvent: {}
+[0.998780] (-) TimerEvent: {}
+[1.099297] (-) TimerEvent: {}
+[1.199745] (-) TimerEvent: {}
+[1.300240] (-) TimerEvent: {}
+[1.400743] (-) TimerEvent: {}
+[1.501219] (-) TimerEvent: {}
+[1.601686] (-) TimerEvent: {}
+[1.702158] (-) TimerEvent: {}
+[1.802586] (-) TimerEvent: {}
+[1.903056] (-) TimerEvent: {}
+[2.003614] (-) TimerEvent: {}
+[2.104226] (-) TimerEvent: {}
+[2.204723] (-) TimerEvent: {}
+[2.305231] (-) TimerEvent: {}
+[2.405742] (-) TimerEvent: {}
+[2.506299] (-) TimerEvent: {}
+[2.606807] (-) TimerEvent: {}
+[2.707313] (-) TimerEvent: {}
+[2.807817] (-) TimerEvent: {}
+[2.908354] (-) TimerEvent: {}
+[3.008866] (-) TimerEvent: {}
+[3.109358] (-) TimerEvent: {}
+[3.209849] (-) TimerEvent: {}
+[3.310310] (-) TimerEvent: {}
+[3.410793] (-) TimerEvent: {}
+[3.511341] (-) TimerEvent: {}
+[3.611825] (-) TimerEvent: {}
+[3.712408] (-) TimerEvent: {}
+[3.812874] (-) TimerEvent: {}
+[3.913308] (-) TimerEvent: {}
+[4.013743] (-) TimerEvent: {}
+[4.114227] (-) TimerEvent: {}
+[4.214693] (-) TimerEvent: {}
+[4.315151] (-) TimerEvent: {}
+[4.415627] (-) TimerEvent: {}
+[4.516154] (-) TimerEvent: {}
+[4.616715] (-) TimerEvent: {}
+[4.717293] (-) TimerEvent: {}
+[4.817891] (-) TimerEvent: {}
+[4.918425] (-) TimerEvent: {}
+[5.018941] (-) TimerEvent: {}
+[5.119462] (-) TimerEvent: {}
+[5.220035] (-) TimerEvent: {}
+[5.320570] (-) TimerEvent: {}
+[5.421104] (-) TimerEvent: {}
+[5.521631] (-) TimerEvent: {}
+[5.622204] (-) TimerEvent: {}
+[5.722716] (-) TimerEvent: {}
+[5.738590] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gazebo::WorldPluginTutorial::Load(gazebo::physics::WorldPtr, sdf::ElementPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.741392] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator>>\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::istream {aka std::basic_istream<char>}\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[5.774296] (testing_gazebo) StderrLine: {'line': b'     int a = \x1b[01;31m\x1b[Kstd::cin>>"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.776167] (testing_gazebo) StderrLine: {'line': b'             \x1b[01;31m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.776522] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/iostream:40:0\x1b[m\x1b[K,\n'}
+[5.776823] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Exception.hh:22\x1b[m\x1b[K,\n'}
+[5.777100] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Assert.hh:20\x1b[m\x1b[K,\n'}
+[5.777376] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.777635] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.777890] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.778141] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:168:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(bool&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>] <near match>\n'}
+[5.778399] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(bool& __n)\n'}
+[5.778643] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.778888] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:168:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[5.779136] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot bind non-const lvalue reference of type \xe2\x80\x98\x1b[01m\x1b[Kbool&\x1b[m\x1b[K\xe2\x80\x99 to an rvalue of type \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.779400] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;31m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.779640] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.779887] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/iostream:40:0\x1b[m\x1b[K,\n'}
+[5.784190] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Exception.hh:22\x1b[m\x1b[K,\n'}
+[5.784495] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Assert.hh:20\x1b[m\x1b[K,\n'}
+[5.784756] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.785006] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.785227] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.785397] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:172:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(short int&) [with _CharT = char; _Traits = std::char_traits<char>] <near match>\n'}
+[5.785550] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(short& __n);\n'}
+[5.785729] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.785951] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:172:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[5.786173] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshort int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[5.786356] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;31m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.786486] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.786681] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot bind rvalue \xe2\x80\x98\x1b[01m\x1b[K(short int)((const char*)"hellobrooooooooo")\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshort int&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.786917] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/iostream:40:0\x1b[m\x1b[K,\n'}
+[5.787092] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Exception.hh:22\x1b[m\x1b[K,\n'}
+[5.787264] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Assert.hh:20\x1b[m\x1b[K,\n'}
+[5.787491] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.787699] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.787841] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.788099] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:175:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(short unsigned int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>] <near match>\n'}
+[5.788334] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(unsigned short& __n)\n'}
+[5.788558] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.788697] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:175:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[5.788823] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshort unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[5.788979] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;31m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.789196] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.789430] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot bind rvalue \xe2\x80\x98\x1b[01m\x1b[K(short unsigned int)((const char*)"hellobrooooooooo")\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshort unsigned int&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.789578] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/iostream:40:0\x1b[m\x1b[K,\n'}
+[5.789705] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Exception.hh:22\x1b[m\x1b[K,\n'}
+[5.789828] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Assert.hh:20\x1b[m\x1b[K,\n'}
+[5.789952] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.790123] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.790331] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.790555] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:179:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>] <near match>\n'}
+[5.790788] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(int& __n);\n'}
+[5.791022] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.791251] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:179:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[5.791496] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[5.791746] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;31m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.791999] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.792235] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot bind rvalue \xe2\x80\x98\x1b[01m\x1b[K(int)((const char*)"hellobrooooooooo")\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.792464] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/iostream:40:0\x1b[m\x1b[K,\n'}
+[5.792681] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Exception.hh:22\x1b[m\x1b[K,\n'}
+[5.792893] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Assert.hh:20\x1b[m\x1b[K,\n'}
+[5.793102] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.793326] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.793537] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.793765] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:182:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(unsigned int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>] <near match>\n'}
+[5.793999] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(unsigned int& __n)\n'}
+[5.794180] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.794305] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:182:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[5.794498] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[5.794654] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;31m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.794777] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.794898] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot bind rvalue \xe2\x80\x98\x1b[01m\x1b[K(unsigned int)((const char*)"hellobrooooooooo")\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.795024] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/iostream:40:0\x1b[m\x1b[K,\n'}
+[5.795145] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Exception.hh:22\x1b[m\x1b[K,\n'}
+[5.795266] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Assert.hh:20\x1b[m\x1b[K,\n'}
+[5.795383] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.795499] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.795666] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.795877] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:186:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>] <near match>\n'}
+[5.796157] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(long& __n)\n'}
+[5.796380] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.796590] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:186:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[5.796812] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[5.797072] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;31m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.797301] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.797528] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot bind rvalue \xe2\x80\x98\x1b[01m\x1b[K(long int)((const char*)"hellobrooooooooo")\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong int&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.797769] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/iostream:40:0\x1b[m\x1b[K,\n'}
+[5.797984] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Exception.hh:22\x1b[m\x1b[K,\n'}
+[5.798206] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Assert.hh:20\x1b[m\x1b[K,\n'}
+[5.798428] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.798647] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.798870] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.799094] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:190:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long unsigned int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>] <near match>\n'}
+[5.799324] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(unsigned long& __n)\n'}
+[5.799547] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.799762] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:190:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[5.800021] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[5.800289] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;31m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.800514] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.800733] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot bind rvalue \xe2\x80\x98\x1b[01m\x1b[K(long unsigned int)((const char*)"hellobrooooooooo")\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.800981] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/iostream:40:0\x1b[m\x1b[K,\n'}
+[5.801197] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Exception.hh:22\x1b[m\x1b[K,\n'}
+[5.801414] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Assert.hh:20\x1b[m\x1b[K,\n'}
+[5.801622] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.801843] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.802057] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.802275] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:195:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long long int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>] <near match>\n'}
+[5.802497] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(long long& __n)\n'}
+[5.802711] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.802921] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:195:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[5.803133] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[5.803356] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;31m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.803567] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.803774] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot bind rvalue \xe2\x80\x98\x1b[01m\x1b[K(long long int)((const char*)"hellobrooooooooo")\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long int&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.804042] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/iostream:40:0\x1b[m\x1b[K,\n'}
+[5.804272] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Exception.hh:22\x1b[m\x1b[K,\n'}
+[5.804474] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Assert.hh:20\x1b[m\x1b[K,\n'}
+[5.804689] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.804903] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.805117] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.805344] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:199:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long long unsigned int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>] <near match>\n'}
+[5.805575] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(unsigned long long& __n)\n'}
+[5.805795] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.806017] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:199:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[5.806253] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[5.806494] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;31m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.806719] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.806934] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot bind rvalue \xe2\x80\x98\x1b[01m\x1b[K(long long unsigned int)((const char*)"hellobrooooooooo")\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.807155] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/iostream:40:0\x1b[m\x1b[K,\n'}
+[5.807364] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Exception.hh:22\x1b[m\x1b[K,\n'}
+[5.807590] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Assert.hh:20\x1b[m\x1b[K,\n'}
+[5.807801] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.808055] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.808282] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.808506] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:235:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(void*&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>] <near match>\n'}
+[5.808728] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(void*& __p)\n'}
+[5.808942] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.809150] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:235:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[5.809360] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst void*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kvoid*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[5.809577] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;31m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.809786] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.810010] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot bind rvalue \xe2\x80\x98\x1b[01m\x1b[K(void*)((const void*)((const char*)"hellobrooooooooo"))\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kvoid*&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.810226] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/iostream:40:0\x1b[m\x1b[K,\n'}
+[5.810447] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Exception.hh:22\x1b[m\x1b[K,\n'}
+[5.810658] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Assert.hh:20\x1b[m\x1b[K,\n'}
+[5.810865] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.811077] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.811287] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.811506] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:120:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__istream_type& (*)(std::basic_istream<_CharT, _Traits>::__istream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]\n'}
+[5.811728] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(__istream_type& (*__pf)(__istream_type&))\n'}
+[5.811957] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.812180] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:120:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<char>::__istream_type& (*)(std::basic_istream<char>::__istream_type&) {aka std::basic_istream<char>& (*)(std::basic_istream<char>&)}\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.812400] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:124:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__ios_type& (*)(std::basic_istream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>; std::basic_istream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]\n'}
+[5.812624] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(__ios_type& (*__pf)(__ios_type&))\n'}
+[5.812829] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.813034] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:124:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<char>::__ios_type& (*)(std::basic_istream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.813249] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:131:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]\n'}
+[5.813477] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(ios_base& (*__pf)(ios_base&))\n'}
+[5.813689] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.813912] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:131:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::ios_base& (*)(std::ios_base&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.814148] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:214:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(float&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]\n'}
+[5.814367] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(float& __f)\n'}
+[5.814581] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.814793] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:214:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.815004] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:218:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(double&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]\n'}
+[5.815219] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(double& __f)\n'}
+[5.815427] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.815633] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:218:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.815842] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:222:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long double&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]\n'}
+[5.816100] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(long double& __f)\n'}
+[5.816328] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.816545] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:222:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong double&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.816765] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:259:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]\n'}
+[5.816999] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(__streambuf_type* __sb);\n'}
+[5.817209] (testing_gazebo) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.817432] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:259:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.817693] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/exception/detail/object_hex_dump.hpp:10:0\x1b[m\x1b[K,\n'}
+[5.817939] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/to_string_stub.hpp:10\x1b[m\x1b[K,\n'}
+[5.818780] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/info.hpp:11\x1b[m\x1b[K,\n'}
+[5.819186] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/detail/exception_ptr.hpp:14\x1b[m\x1b[K,\n'}
+[5.819480] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception_ptr.hpp:9\x1b[m\x1b[K,\n'}
+[5.819734] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/exceptional_ptr.hpp:10\x1b[m\x1b[K,\n'}
+[5.819990] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/future.hpp:25\x1b[m\x1b[K,\n'}
+[5.820244] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread.hpp:24\x1b[m\x1b[K,\n'}
+[5.820483] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Console.hh:27\x1b[m\x1b[K,\n'}
+[5.820646] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:47\x1b[m\x1b[K,\n'}
+[5.820789] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.821008] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/iomanip:418:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Get_time<_CharT>)\n'}
+[5.821254] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, _Get_time<_CharT> __f)\n'}
+[5.821476] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.821692] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/iomanip:418:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.821915] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::_Get_time<_CharT>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.822150] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.822367] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.822570] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/exception/detail/object_hex_dump.hpp:10:0\x1b[m\x1b[K,\n'}
+[5.822764] (-) TimerEvent: {}
+[5.823173] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/to_string_stub.hpp:10\x1b[m\x1b[K,\n'}
+[5.823432] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/info.hpp:11\x1b[m\x1b[K,\n'}
+[5.823651] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/detail/exception_ptr.hpp:14\x1b[m\x1b[K,\n'}
+[5.823864] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception_ptr.hpp:9\x1b[m\x1b[K,\n'}
+[5.824123] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/exceptional_ptr.hpp:10\x1b[m\x1b[K,\n'}
+[5.824344] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/future.hpp:25\x1b[m\x1b[K,\n'}
+[5.824545] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread.hpp:24\x1b[m\x1b[K,\n'}
+[5.824751] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Console.hh:27\x1b[m\x1b[K,\n'}
+[5.824948] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:47\x1b[m\x1b[K,\n'}
+[5.825145] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.825346] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/iomanip:264:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _CharT, class _Traits, class _MoneyT> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Get_money<_MoneyT>)\n'}
+[5.825542] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, _Get_money<_MoneyT> __f)\n'}
+[5.825739] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.825932] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/iomanip:264:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.826122] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::_Get_money<_MoneyT>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.826325] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.826534] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.826723] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/exception/detail/object_hex_dump.hpp:10:0\x1b[m\x1b[K,\n'}
+[5.826910] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/to_string_stub.hpp:10\x1b[m\x1b[K,\n'}
+[5.827102] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/info.hpp:11\x1b[m\x1b[K,\n'}
+[5.827292] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/detail/exception_ptr.hpp:14\x1b[m\x1b[K,\n'}
+[5.827479] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception_ptr.hpp:9\x1b[m\x1b[K,\n'}
+[5.827656] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/exceptional_ptr.hpp:10\x1b[m\x1b[K,\n'}
+[5.827843] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/future.hpp:25\x1b[m\x1b[K,\n'}
+[5.828056] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread.hpp:24\x1b[m\x1b[K,\n'}
+[5.828209] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Console.hh:27\x1b[m\x1b[K,\n'}
+[5.828331] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:47\x1b[m\x1b[K,\n'}
+[5.828487] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.828621] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/iomanip:230:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setw)\n'}
+[5.828756] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, _Setw __f)\n'}
+[5.828873] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.828990] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/iomanip:230:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.829107] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setw\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.829252] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.829457] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.829644] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/exception/detail/object_hex_dump.hpp:10:0\x1b[m\x1b[K,\n'}
+[5.829772] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/to_string_stub.hpp:10\x1b[m\x1b[K,\n'}
+[5.829901] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/info.hpp:11\x1b[m\x1b[K,\n'}
+[5.830023] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/detail/exception_ptr.hpp:14\x1b[m\x1b[K,\n'}
+[5.830145] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception_ptr.hpp:9\x1b[m\x1b[K,\n'}
+[5.830265] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/exceptional_ptr.hpp:10\x1b[m\x1b[K,\n'}
+[5.830384] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/future.hpp:25\x1b[m\x1b[K,\n'}
+[5.830517] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread.hpp:24\x1b[m\x1b[K,\n'}
+[5.830692] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Console.hh:27\x1b[m\x1b[K,\n'}
+[5.830816] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:47\x1b[m\x1b[K,\n'}
+[5.830937] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.831058] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/iomanip:200:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setprecision)\n'}
+[5.831179] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, _Setprecision __f)\n'}
+[5.831315] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.831520] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/iomanip:200:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.831728] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setprecision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.831912] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.832168] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.832383] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/exception/detail/object_hex_dump.hpp:10:0\x1b[m\x1b[K,\n'}
+[5.832594] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/to_string_stub.hpp:10\x1b[m\x1b[K,\n'}
+[5.832755] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/info.hpp:11\x1b[m\x1b[K,\n'}
+[5.832879] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/detail/exception_ptr.hpp:14\x1b[m\x1b[K,\n'}
+[5.833086] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception_ptr.hpp:9\x1b[m\x1b[K,\n'}
+[5.833298] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/exceptional_ptr.hpp:10\x1b[m\x1b[K,\n'}
+[5.833460] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/future.hpp:25\x1b[m\x1b[K,\n'}
+[5.833642] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread.hpp:24\x1b[m\x1b[K,\n'}
+[5.833847] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Console.hh:27\x1b[m\x1b[K,\n'}
+[5.834065] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:47\x1b[m\x1b[K,\n'}
+[5.834284] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.834496] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/iomanip:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setfill<_CharT>)\n'}
+[5.834711] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, _Setfill<_CharT> __f)\n'}
+[5.834921] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.835133] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/iomanip:170:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.835345] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setfill<_CharT>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.835547] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.835689] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.835896] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/exception/detail/object_hex_dump.hpp:10:0\x1b[m\x1b[K,\n'}
+[5.836173] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/to_string_stub.hpp:10\x1b[m\x1b[K,\n'}
+[5.836349] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/info.hpp:11\x1b[m\x1b[K,\n'}
+[5.836569] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/detail/exception_ptr.hpp:14\x1b[m\x1b[K,\n'}
+[5.836794] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception_ptr.hpp:9\x1b[m\x1b[K,\n'}
+[5.837007] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/exceptional_ptr.hpp:10\x1b[m\x1b[K,\n'}
+[5.837135] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/future.hpp:25\x1b[m\x1b[K,\n'}
+[5.837325] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread.hpp:24\x1b[m\x1b[K,\n'}
+[5.837530] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Console.hh:27\x1b[m\x1b[K,\n'}
+[5.837723] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:47\x1b[m\x1b[K,\n'}
+[5.837867] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.838079] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/iomanip:132:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setbase)\n'}
+[5.838288] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, _Setbase __f)\n'}
+[5.838431] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.838621] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/iomanip:132:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.838831] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setbase\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.839058] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.839211] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.839337] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/exception/detail/object_hex_dump.hpp:10:0\x1b[m\x1b[K,\n'}
+[5.839458] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/to_string_stub.hpp:10\x1b[m\x1b[K,\n'}
+[5.839578] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/info.hpp:11\x1b[m\x1b[K,\n'}
+[5.839699] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/detail/exception_ptr.hpp:14\x1b[m\x1b[K,\n'}
+[5.839821] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception_ptr.hpp:9\x1b[m\x1b[K,\n'}
+[5.839958] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/exceptional_ptr.hpp:10\x1b[m\x1b[K,\n'}
+[5.840101] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/future.hpp:25\x1b[m\x1b[K,\n'}
+[5.840222] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread.hpp:24\x1b[m\x1b[K,\n'}
+[5.840338] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Console.hh:27\x1b[m\x1b[K,\n'}
+[5.840455] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:47\x1b[m\x1b[K,\n'}
+[5.840583] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.840703] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/iomanip:101:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setiosflags)\n'}
+[5.840823] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, _Setiosflags __f)\n'}
+[5.840942] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.841058] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/iomanip:101:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.841178] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setiosflags\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.841307] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.841423] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.841540] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/exception/detail/object_hex_dump.hpp:10:0\x1b[m\x1b[K,\n'}
+[5.841660] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/to_string_stub.hpp:10\x1b[m\x1b[K,\n'}
+[5.841779] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/info.hpp:11\x1b[m\x1b[K,\n'}
+[5.841896] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception/detail/exception_ptr.hpp:14\x1b[m\x1b[K,\n'}
+[5.842015] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/exception_ptr.hpp:9\x1b[m\x1b[K,\n'}
+[5.842131] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/exceptional_ptr.hpp:10\x1b[m\x1b[K,\n'}
+[5.842247] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/future.hpp:25\x1b[m\x1b[K,\n'}
+[5.842378] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread.hpp:24\x1b[m\x1b[K,\n'}
+[5.842496] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Console.hh:27\x1b[m\x1b[K,\n'}
+[5.842612] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:47\x1b[m\x1b[K,\n'}
+[5.842736] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.842859] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/iomanip:71:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Resetiosflags)\n'}
+[5.842978] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, _Resetiosflags __f)\n'}
+[5.843147] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.843361] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/iomanip:71:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.843585] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Resetiosflags\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.843825] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.844070] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.844294] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/detail/container_fwd.hpp:98:0\x1b[m\x1b[K,\n'}
+[5.844514] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/functional/hash/extensions.hpp:22\x1b[m\x1b[K,\n'}
+[5.844732] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/functional/hash/hash.hpp:594\x1b[m\x1b[K,\n'}
+[5.844943] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/functional/hash.hpp:6\x1b[m\x1b[K,\n'}
+[5.845165] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/detail/thread.hpp:38\x1b[m\x1b[K,\n'}
+[5.845380] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/thread_only.hpp:22\x1b[m\x1b[K,\n'}
+[5.845592] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/thread.hpp:12\x1b[m\x1b[K,\n'}
+[5.845796] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread.hpp:13\x1b[m\x1b[K,\n'}
+[5.846004] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Console.hh:27\x1b[m\x1b[K,\n'}
+[5.846211] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:47\x1b[m\x1b[K,\n'}
+[5.846414] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.846615] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/complex:493:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _Tp, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::complex<_Tp>&)\n'}
+[5.846819] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __is, complex<_Tp>& __x)\n'}
+[5.847019] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.847210] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/complex:493:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.847414] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.847633] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.847837] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.848065] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/detail/container_fwd.hpp:96:0\x1b[m\x1b[K,\n'}
+[5.848283] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/functional/hash/extensions.hpp:22\x1b[m\x1b[K,\n'}
+[5.848521] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/functional/hash/hash.hpp:594\x1b[m\x1b[K,\n'}
+[5.848737] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/functional/hash.hpp:6\x1b[m\x1b[K,\n'}
+[5.848952] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/detail/thread.hpp:38\x1b[m\x1b[K,\n'}
+[5.849178] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/thread_only.hpp:22\x1b[m\x1b[K,\n'}
+[5.849396] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/thread.hpp:12\x1b[m\x1b[K,\n'}
+[5.849619] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread.hpp:13\x1b[m\x1b[K,\n'}
+[5.849841] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Console.hh:27\x1b[m\x1b[K,\n'}
+[5.850085] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:47\x1b[m\x1b[K,\n'}
+[5.850332] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.850580] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bitset:1462:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _CharT, class _Traits, long unsigned int _Nb> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::bitset<_Nb>&)\n'}
+[5.850838] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is, bitset<_Nb>& __x)\n'}
+[5.851089] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.851320] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bitset:1462:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.851575] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::bitset<_Nb>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.851828] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.852091] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.852341] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.852591] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.852832] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.853047] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.853269] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.853485] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.853712] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.853931] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.854169] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:3192:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::piecewise_linear_distribution<_RealType>&)\n'}
+[5.854401] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.854644] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.854879] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:3192:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.855117] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::piecewise_linear_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.855363] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.855593] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.855842] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.856115] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.856355] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.856578] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.856833] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.857077] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.857294] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.857520] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.857749] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2976:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::piecewise_constant_distribution<_RealType>&)\n'}
+[5.857977] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.858198] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.858417] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2976:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.858633] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::piecewise_constant_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.858865] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.859100] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.859310] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.859529] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.859750] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.860000] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.860237] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.860456] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.860690] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.860912] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.861125] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2761:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::discrete_distribution<_IntType>&)\n'}
+[5.861347] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.861559] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.861775] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2761:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.862000] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::discrete_distribution<_IntType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.862226] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.862442] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.862668] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.862882] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.863100] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.863332] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.863562] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.863789] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.864034] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.864256] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.864489] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2299:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::student_t_distribution<_RealType>&)\n'}
+[5.864711] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.864935] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.865154] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2299:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.865374] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::student_t_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.865612] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.865834] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.866070] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.866317] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.866571] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.866836] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.867099] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.867353] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.867600] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.867863] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.868148] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2225:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::fisher_f_distribution<_RealType>&)\n'}
+[5.868429] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.868704] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.868965] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2225:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.869259] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::fisher_f_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.869586] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.869855] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.870128] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.870379] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.870627] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.870873] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.871117] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.871367] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.871613] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.871861] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.872142] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2060:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::chi_squared_distribution<_RealType>&)\n'}
+[5.872398] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.872650] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.872902] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2060:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.873156] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::chi_squared_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.873409] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.873655] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.873893] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.874127] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.874359] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.874586] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.874815] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.875046] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.875272] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.875501] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.875730] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:1988:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::lognormal_distribution<_RealType>&)\n'}
+[5.875992] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.876220] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.876449] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:1988:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.876689] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::lognormal_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.876929] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.877159] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.877391] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.877636] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.877873] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.878117] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.878351] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.878588] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.878820] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.879068] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.879316] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:1693:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::binomial_distribution<_IntType>&)\n'}
+[5.879558] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.879793] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.880040] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:1693:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.880290] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::binomial_distribution<_IntType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.880543] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.880777] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.881011] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.881260] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.881493] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.881722] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.881955] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.882180] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.882408] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.882637] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.882864] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:1425:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::poisson_distribution<_IntType>&)\n'}
+[5.883102] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.883335] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.883571] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:1425:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.883799] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::poisson_distribution<_IntType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.884229] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.884484] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.884722] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.884957] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.885192] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.885421] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.885653] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.885881] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.886110] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.886334] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.886565] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:1220:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::negative_binomial_distribution<_IntType>&)\n'}
+[5.886816] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.887051] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.887278] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:1220:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.887525] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::negative_binomial_distribution<_IntType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.887776] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.888032] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.888270] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.888497] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.888733] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.888960] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.889191] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.889422] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.889650] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.889879] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.890111] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:856:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _RandomNumberEngine, long unsigned int __k, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::shuffle_order_engine<_RandomNumberEngine, __k>&)\n'}
+[5.890350] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.890575] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.890806] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:856:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.891035] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::shuffle_order_engine<_RandomNumberEngine, __k>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.891270] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.891504] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.891730] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.891985] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.892227] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.892455] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.892682] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.892916] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.893146] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.893384] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.893612] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:725:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _RandomNumberEngine, long unsigned int __p, long unsigned int __r, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::discard_block_engine<_RandomNumberEngine, __p, __r>&)\n'}
+[5.893847] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.894075] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.894297] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:725:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.894520] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::discard_block_engine<_RandomNumberEngine, __p, __r>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.894761] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.894985] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.895218] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.895447] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.895671] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.895899] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.896210] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.896444] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.896672] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.896907] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.897145] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:657:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _UIntType, long unsigned int __w, long unsigned int __s, long unsigned int __r, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::subtract_with_carry_engine<_UIntType, __w, __s, __r>&)\n'}
+[5.897408] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.897633] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.897852] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:657:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.898078] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::subtract_with_carry_engine<_UIntType, __w, __s, __r>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.898428] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.898675] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.898908] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.899137] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.899362] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.899598] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.899828] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.900117] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.900349] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.900577] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.900807] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:178:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _UIntType, _UIntType __a, _UIntType __c, _UIntType __m, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::linear_congruential_engine<_UIntType, __a, __c, __m>&)\n'}
+[5.901047] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.901278] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.901508] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:178:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.901746] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::linear_congruential_engine<_UIntType, __a, __c, __m>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.901986] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.902212] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.902453] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.902681] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.902911] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.903132] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.903360] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.903584] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.903813] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.904061] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.904291] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2622:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::extreme_value_distribution<_RealType>&)\n'}
+[5.904535] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.904769] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.904993] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2622:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.905224] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::extreme_value_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.905487] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.905718] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.905950] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.906188] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.906418] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.906652] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.906884] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.907115] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.907346] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.907575] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.907807] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2546:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::weibull_distribution<_RealType>&)\n'}
+[5.908089] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.908324] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.908556] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2546:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.908788] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::weibull_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.909032] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.909260] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.909486] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.909710] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.909950] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.910178] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.910408] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.910626] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.910855] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.911085] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.911313] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:1754:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::exponential_distribution<_RealType>&)\n'}
+[5.911546] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.911778] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.912020] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:1754:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.912259] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::exponential_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.912504] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.912735] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.912979] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.913219] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.913461] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.913770] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.914681] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.914956] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.915201] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.915458] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.915709] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2469:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _RealType1, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::gamma_distribution<_RealType>&)\n'}
+[5.915974] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.916229] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.916468] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2469:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.916702] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::gamma_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.916943] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.917176] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.917403] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.917618] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.917827] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.918052] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.918291] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.918524] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.918760] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.918985] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.919226] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:1104:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::geometric_distribution<_IntType>&)\n'}
+[5.919480] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.919717] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.919958] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:1104:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.920197] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::geometric_distribution<_IntType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.920441] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.920680] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.920913] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.921140] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.921373] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.921603] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.921834] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.922059] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.922290] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.922519] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.922746] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:1925:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _RealType1, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::normal_distribution<_RealType>&)\n'}
+[5.922970] (-) TimerEvent: {}
+[5.923248] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.923490] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.923721] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:1925:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.923982] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::normal_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.924247] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.924481] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.924709] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:49:0\x1b[m\x1b[K,\n'}
+[5.924959] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.925189] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.925421] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.925647] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.925873] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.926101] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.926327] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.926562] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.h:3644:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::bernoulli_distribution&)\n'}
+[5.926775] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.926985] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.927185] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.h:3644:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.927398] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::bernoulli_distribution&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.927639] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.927847] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.928078] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.928291] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.928495] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.928692] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.928897] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.929093] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.929293] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.929494] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.929696] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2147:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::cauchy_distribution<_RealType>&)\n'}
+[5.929920] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.930121] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.930322] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:2147:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.930521] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::cauchy_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.930731] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.930927] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.931122] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.931319] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.931536] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.931735] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.931929] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.932163] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.932362] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.932572] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.932781] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:960:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _RealType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::uniform_real_distribution<_IntType>&)\n'}
+[5.933093] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.933313] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.933516] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:960:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.933718] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::uniform_real_distribution<_IntType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.933923] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.934127] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.934323] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.934537] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.934736] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.934928] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.935123] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.935312] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.935502] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.935689] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.935885] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:898:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _IntType, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::uniform_int_distribution<_IntType>&)\n'}
+[5.936247] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.936450] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.936642] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:898:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.936838] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::uniform_int_distribution<_IntType>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.937036] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.937230] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.937422] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/random:51:0\x1b[m\x1b[K,\n'}
+[5.937615] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math/Rand.hh:20\x1b[m\x1b[K,\n'}
+[5.937813] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math4/ignition/math.hh:41\x1b[m\x1b[K,\n'}
+[5.938004] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Param.hh:41\x1b[m\x1b[K,\n'}
+[5.938194] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Element.hh:25\x1b[m\x1b[K,\n'}
+[5.938381] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:4\x1b[m\x1b[K,\n'}
+[5.938572] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.938762] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.938955] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:505:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _UIntType1, long unsigned int __w1, long unsigned int __n1, long unsigned int __m1, long unsigned int __r1, _UIntType1 __a1, long unsigned int __u1, _UIntType1 __d1, long unsigned int __s1, _UIntType1 __b1, long unsigned int __t1, _UIntType1 __c1, long unsigned int __l1, _UIntType1 __f1, class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>&)\n'}
+[5.939178] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(std::basic_istream<_CharT, _Traits>& __is,\n'}
+[5.939378] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.939574] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/random.tcc:505:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.939765] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.940019] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.940225] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.940426] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/iostream:40:0\x1b[m\x1b[K,\n'}
+[5.940628] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Exception.hh:22\x1b[m\x1b[K,\n'}
+[5.940832] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Assert.hh:20\x1b[m\x1b[K,\n'}
+[5.941031] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.941230] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.941431] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.941622] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:980:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _Istream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_istream<_Istream>, std::__is_extractable<typename std::__is_convertible_to_basic_istream<_Tp>::__istream_type, _Tp&&, void> >::value, typename std::__is_convertible_to_basic_istream<_Tp>::__istream_type>::type std::operator>>(_Istream&&, _Tp&&)\n'}
+[5.941821] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(_Istream&& __is, _Tp&& __x)\n'}
+[5.942011] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.942207] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:980:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.942337] (testing_gazebo) StderrLine: {'line': b'/usr/include/c++/7/istream: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Istream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_istream<_Istream>, std::__is_extractable<typename std::__is_convertible_to_basic_istream<_Tp>::__istream_type, _Tp&&, void> >::value, typename std::__is_convertible_to_basic_istream<_Tp>::__istream_type>::type std::operator>>(_Istream&&, _Tp&&) [with _Istream = std::basic_istream<char>&; _Tp = const char (&)[17]]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.942495] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K   required from here\n'}
+[5.942616] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:980:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::basic_istream<char>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.942736] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:808:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char*)\n'}
+[5.942856] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<char, _Traits>& __in, signed char* __s)\n'}
+[5.942976] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.943091] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:808:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.943207] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Ksigned char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.943350] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.943467] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.943584] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/iostream:40:0\x1b[m\x1b[K,\n'}
+[5.943700] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Exception.hh:22\x1b[m\x1b[K,\n'}
+[5.943818] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Assert.hh:20\x1b[m\x1b[K,\n'}
+[5.943953] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.944100] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.944220] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.944339] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:803:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char*)\n'}
+[5.944469] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<char, _Traits>& __in, unsigned char* __s)\n'}
+[5.944596] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.944714] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:803:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.944837] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kunsigned char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.944970] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.945086] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.945206] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/iostream:40:0\x1b[m\x1b[K,\n'}
+[5.945321] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Exception.hh:22\x1b[m\x1b[K,\n'}
+[5.945435] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Assert.hh:20\x1b[m\x1b[K,\n'}
+[5.945553] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.945672] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.945787] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.945904] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:761:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char&)\n'}
+[5.946034] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<char, _Traits>& __in, signed char& __c)\n'}
+[5.946154] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.946275] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:761:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.946391] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Ksigned char&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.946517] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.946635] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.946752] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/iostream:40:0\x1b[m\x1b[K,\n'}
+[5.946869] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Exception.hh:22\x1b[m\x1b[K,\n'}
+[5.946985] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Assert.hh:20\x1b[m\x1b[K,\n'}
+[5.947101] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.947215] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.947332] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.947449] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:756:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char&)\n'}
+[5.947565] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<char, _Traits>& __in, unsigned char& __c)\n'}
+[5.947681] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.947806] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/istream:756:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.947924] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kunsigned char&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.948096] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.948214] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.948333] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/istream:991:0\x1b[m\x1b[K,\n'}
+[5.948453] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/iostream:40\x1b[m\x1b[K,\n'}
+[5.948571] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Exception.hh:22\x1b[m\x1b[K,\n'}
+[5.948688] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Assert.hh:20\x1b[m\x1b[K,\n'}
+[5.948805] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.948924] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.949041] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.949173] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/istream.tcc:931:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT&)\n'}
+[5.949392] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __in, _CharT& __c)\n'}
+[5.949638] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.949866] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/istream.tcc:931:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.950094] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[K_CharT\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[5.950334] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.950565] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.950798] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/istream:991:0\x1b[m\x1b[K,\n'}
+[5.951026] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/iostream:40\x1b[m\x1b[K,\n'}
+[5.951249] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Exception.hh:22\x1b[m\x1b[K,\n'}
+[5.951475] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/Assert.hh:20\x1b[m\x1b[K,\n'}
+[5.951718] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-6.2/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.951962] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:42\x1b[m\x1b[K,\n'}
+[5.952196] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.952420] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/istream.tcc:963:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _CharT2, class _Traits2> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT2*)\n'}
+[5.952639] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __in, _CharT* __s)\n'}
+[5.952843] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.953048] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/istream.tcc:963:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.953264] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[K_CharT2\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[5.953504] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.953730] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.953963] (testing_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/string:53:0\x1b[m\x1b[K,\n'}
+[5.954184] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-9/gazebo/common/Plugin.hh:40\x1b[m\x1b[K,\n'}
+[5.954395] (testing_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.954546] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.tcc:1465:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\n'}
+[5.954728] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>>(basic_istream<_CharT, _Traits>& __in,\n'}
+[5.954938] (testing_gazebo) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.955147] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/basic_string.tcc:1465:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.955344] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.955565] (testing_gazebo) StderrLine: {'line': b'     int a = std::cin>>\x1b[01;36m\x1b[K"hellobrooooooooo"\x1b[m\x1b[K;\n'}
+[5.955758] (testing_gazebo) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.955992] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:17:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[5.956236] (testing_gazebo) StderrLine: {'line': b'     int \x1b[01;35m\x1b[Ka\x1b[m\x1b[K = std::cin>>"hellobrooooooooo";\n'}
+[5.956451] (testing_gazebo) StderrLine: {'line': b'         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.956580] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:15:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_world\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.956775] (testing_gazebo) StderrLine: {'line': b'   void Load(physics::WorldPtr \x1b[01;35m\x1b[K_world\x1b[m\x1b[K, sdf::ElementPtr _sdf)\n'}
+[5.956986] (testing_gazebo) StderrLine: {'line': b'                               \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.957196] (testing_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/src/testing_gazebo/src/simple_world_plugin.cpp:15:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_sdf\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.957422] (testing_gazebo) StderrLine: {'line': b'   void Load(physics::WorldPtr _world, sdf::ElementPtr \x1b[01;35m\x1b[K_sdf\x1b[m\x1b[K)\n'}
+[5.957631] (testing_gazebo) StderrLine: {'line': b'                                                       \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.023228] (-) TimerEvent: {}
+[6.123687] (-) TimerEvent: {}
+[6.224219] (-) TimerEvent: {}
+[6.324703] (-) TimerEvent: {}
+[6.425189] (-) TimerEvent: {}
+[6.525666] (-) TimerEvent: {}
+[6.626161] (-) TimerEvent: {}
+[6.726692] (-) TimerEvent: {}
+[6.827142] (-) TimerEvent: {}
+[6.927564] (-) TimerEvent: {}
+[7.028080] (-) TimerEvent: {}
+[7.128595] (-) TimerEvent: {}
+[7.229106] (-) TimerEvent: {}
+[7.329625] (-) TimerEvent: {}
+[7.430143] (-) TimerEvent: {}
+[7.530700] (-) TimerEvent: {}
+[7.631321] (-) TimerEvent: {}
+[7.704537] (testing_gazebo) StdoutLine: {'line': b"CMakeFiles/testing_gazebo.dir/build.make:62: recipe for target 'CMakeFiles/testing_gazebo.dir/src/simple_world_plugin.cpp.o' failed\n"}
+[7.704907] (testing_gazebo) StderrLine: {'line': b'make[2]: *** [CMakeFiles/testing_gazebo.dir/src/simple_world_plugin.cpp.o] Error 1\n'}
+[7.705640] (testing_gazebo) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/testing_gazebo.dir/all' failed\n"}
+[7.705965] (testing_gazebo) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[7.706297] (testing_gazebo) StderrLine: {'line': b'make[1]: *** [CMakeFiles/testing_gazebo.dir/all] Error 2\n'}
+[7.706530] (testing_gazebo) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[7.708876] (testing_gazebo) CommandEnded: {'returncode': 2}
+[7.709926] (testing_gazebo) JobEnded: {'identifier': 'testing_gazebo', 'rc': 2}
+[7.736389] (-) TimerEvent: {}
+[7.736645] (-) EventReactorShutdown: {}

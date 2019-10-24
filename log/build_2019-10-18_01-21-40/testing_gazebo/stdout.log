@@ -1,0 +1,7 @@
+[100%] Built target simple_world
+[100%] Built target simple_world
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo/share/testing_gazebo/environment/library_path.sh
+-- Up-to-date symlink: /home/konu/Desktop/stuff/ros2_gazebo_custom_plug_ws/install/testing_gazebo/lib/libsimple_world.so
