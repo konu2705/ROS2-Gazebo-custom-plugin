@@ -1,9 +1,9 @@
-THIS FUCKING WORKS!!! IT TOOK A LOT OF TIME TO FIND THE RIGHT THINGS TO MAKE IT WORK BE CAREFUL!!
+THIS WORKS!!! IT TOOK A LOT OF TIME TO FIND THE RIGHT THINGS TO MAKE IT WORK BE CAREFUL!!
 
-Cmakelist file mai there is no need for executable common when making a plugin
+Cmakelist file mai there is no need for executable comand when making a plugin
 
 
-the following lines are the one which finally after a whole fucking day os work allowed to get
+the following lines are the one which finally after a whole day of work allowed to get
 the plugin to be exported and get recognised by gazebo
 ******
 ament_export_libraries(simple_world)
